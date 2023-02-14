@@ -1,0 +1,1231 @@
+Dependencies for Project 'GD32F427', Target 'GD32F427': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (..\Core\src\gd32f4xx_it.c)(0x63525ACD)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_it.o --omf_browse .\objects\gd32f4xx_it.crf --depend .\objects\gd32f4xx_it.d)
+I (..\Core\inc\gd32f4xx_it.h)(0x63525ACD)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+I (..\Core\inc\systick.h)(0x63525ACD)
+F (..\Core\src\main.c)(0x63B94DDB)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+I (..\Core\inc\systick.h)(0x63525ACD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (..\Core\src\systick.c)(0x63525ACD)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+I (..\Core\inc\systick.h)(0x63525ACD)
+F (..\Startup\startup_gd32f407_427.s)(0x63525AC5)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "GD32F427 SETA 1"--list .\listings\startup_gd32f407_427.lst --xref -o .\objects\startup_gd32f407_427.o --depend .\objects\startup_gd32f407_427.d)
+F (..\Drivers\CMSIS\GD\GD32F4xx\Source\system_gd32f4xx.c)(0x63A52706)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\system_gd32f4xx.o --omf_browse .\objects\system_gd32f4xx.crf --depend .\objects\system_gd32f4xx.d)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_adc.c)(0x63525AD9)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_adc.o --omf_browse .\objects\gd32f4xx_adc.crf --depend .\objects\gd32f4xx_adc.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_can.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_can.o --omf_browse .\objects\gd32f4xx_can.crf --depend .\objects\gd32f4xx_can.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_crc.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_crc.o --omf_browse .\objects\gd32f4xx_crc.crf --depend .\objects\gd32f4xx_crc.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_ctc.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_ctc.o --omf_browse .\objects\gd32f4xx_ctc.crf --depend .\objects\gd32f4xx_ctc.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_dac.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_dac.o --omf_browse .\objects\gd32f4xx_dac.crf --depend .\objects\gd32f4xx_dac.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_dbg.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_dbg.o --omf_browse .\objects\gd32f4xx_dbg.crf --depend .\objects\gd32f4xx_dbg.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_dci.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_dci.o --omf_browse .\objects\gd32f4xx_dci.crf --depend .\objects\gd32f4xx_dci.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_dma.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_dma.o --omf_browse .\objects\gd32f4xx_dma.crf --depend .\objects\gd32f4xx_dma.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_enet.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_enet.o --omf_browse .\objects\gd32f4xx_enet.crf --depend .\objects\gd32f4xx_enet.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_exmc.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_exmc.o --omf_browse .\objects\gd32f4xx_exmc.crf --depend .\objects\gd32f4xx_exmc.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_exti.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_exti.o --omf_browse .\objects\gd32f4xx_exti.crf --depend .\objects\gd32f4xx_exti.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_fmc.c)(0x63525AD9)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_fmc.o --omf_browse .\objects\gd32f4xx_fmc.crf --depend .\objects\gd32f4xx_fmc.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_fwdgt.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_fwdgt.o --omf_browse .\objects\gd32f4xx_fwdgt.crf --depend .\objects\gd32f4xx_fwdgt.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_gpio.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_gpio.o --omf_browse .\objects\gd32f4xx_gpio.crf --depend .\objects\gd32f4xx_gpio.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_i2c.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_i2c.o --omf_browse .\objects\gd32f4xx_i2c.crf --depend .\objects\gd32f4xx_i2c.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_ipa.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_ipa.o --omf_browse .\objects\gd32f4xx_ipa.crf --depend .\objects\gd32f4xx_ipa.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_iref.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_iref.o --omf_browse .\objects\gd32f4xx_iref.crf --depend .\objects\gd32f4xx_iref.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_misc.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_misc.o --omf_browse .\objects\gd32f4xx_misc.crf --depend .\objects\gd32f4xx_misc.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_pmu.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_pmu.o --omf_browse .\objects\gd32f4xx_pmu.crf --depend .\objects\gd32f4xx_pmu.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_rcu.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_rcu.o --omf_browse .\objects\gd32f4xx_rcu.crf --depend .\objects\gd32f4xx_rcu.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_rtc.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_rtc.o --omf_browse .\objects\gd32f4xx_rtc.crf --depend .\objects\gd32f4xx_rtc.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_sdio.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_sdio.o --omf_browse .\objects\gd32f4xx_sdio.crf --depend .\objects\gd32f4xx_sdio.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_spi.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_spi.o --omf_browse .\objects\gd32f4xx_spi.crf --depend .\objects\gd32f4xx_spi.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_syscfg.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_syscfg.o --omf_browse .\objects\gd32f4xx_syscfg.crf --depend .\objects\gd32f4xx_syscfg.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_timer.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_timer.o --omf_browse .\objects\gd32f4xx_timer.crf --depend .\objects\gd32f4xx_timer.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_tli.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_tli.o --omf_browse .\objects\gd32f4xx_tli.crf --depend .\objects\gd32f4xx_tli.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_trng.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_trng.o --omf_browse .\objects\gd32f4xx_trng.crf --depend .\objects\gd32f4xx_trng.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_usart.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_usart.o --omf_browse .\objects\gd32f4xx_usart.crf --depend .\objects\gd32f4xx_usart.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
+F (..\Drivers\GD32F4xx_standard_peripheral\Source\gd32f4xx_wwdgt.c)(0x63525AC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\Core\inc -I ..\Drivers\CMSIS\GD\GD32F4xx\Include -I ..\Drivers\GD32F4xx_standard_peripheral\Include -I ..\Drivers\CMSIS\GD\GD32F4xx\Source\ARM -I ..\Drivers\CMSIS-I.\RTE\_GD32F427-IC:\Users\LENOVO\AppData\Local\Arm\Packs\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DGD32F427 -DUSE_STDPERIPH_DRIVER -DGD32F427-o .\objects\gd32f4xx_wwdgt.o --omf_browse .\objects\gd32f4xx_wwdgt.crf --depend .\objects\gd32f4xx_wwdgt.d)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63525AC4)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4.h)(0x63A52706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Drivers\CMSIS\core_cmInstr.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cmFunc.h)(0x63A52706)
+I (..\Drivers\CMSIS\core_cm4_simd.h)(0x63A52706)
+I (..\Drivers\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x63A52706)
+I (..\Core\inc\gd32f4xx_libopt.h)(0x63495556)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x63525AD9)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63525AC4)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x63525AC4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\Drivers\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x63525AC4)
